@@ -1,0 +1,63 @@
+<h1>Órarend</h1>
+<table>
+    <tr>
+        <th>óra</th> <th>Hétfő</th> <th>Kedd</th>
+        <th>Szerda</th> <th>Csütörtök</th> <th>Péntek</th>
+    </tr>
+    <tr>
+        <td>1.</td> <td>magyar</td> <td>francia</td>
+        <td>irodalom</td> <td>történelem</td> <td>töri</td>
+    </tr>
+    <tr>
+        <td>2.</td> <td>angol</td> <td>matek</td>
+        <td>fizika</td> <td>francia</td> <td>irodalom</td>
+    </tr>
+    <tr>
+        <td>3.</td> <td>kémia</td> <td>földrajz</td>
+        <td>francia</td> <td>matek</td> <td>francia</td>
+    </tr>
+    <tr>
+        <td>4.</td> <td>tesi</td> <td>tesi</td>
+        <td>tesi</td> <td>angol</td> <td>matek</td>
+    </tr>
+    <tr>
+        <td>5.</td> <td>történelem</td> <td>informatika</td>
+        <td>biológia</td> <td>informatika</td> <td>fizika</td>
+    </tr>
+    <tr>
+        <td>6.</td> <td>francia</td> <td>biológia</td>
+        <td>angol</td> <td>magyar</td> <td>rajz</td>
+    </tr>
+    <tr>
+        <td>7.</td> <td>ének</td> <td>francia</td>
+        <td>francia</td> <td>bológia</td> <td>osztályfőnöki</td>
+    </tr>
+</table>
+<style>
+    h1, table {
+        text-align: center;
+        font-family: Impact;
+    }
+    table {
+        font-size: x-large;    
+        border-spacing: 4px;
+        box-shadow: 1px 1px 3px black;
+        border-radius: 5px;
+        padding: 7px;
+        margin: auto;
+    }
+    td {
+        box-shadow: 1px 1px 4px black inset;
+        background-color: rgb(193, 235, 221);
+        text-align: center;
+        border: solid 1px rgb(17, 26, 17);
+        padding: 4px;
+        color: rgb(12, 57, 45);
+    }
+    th {
+        width: 120px;
+        background-color: rgb(43, 45, 34);
+        color: beige;
+        padding: 7px;
+    }
+</style>
