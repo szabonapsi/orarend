@@ -1,2 +1,32 @@
-<h1>Ez a kezdőoldal</h1>
-<a href="orarend.html">Ez meg az órarendem</a>
+<body>
+    <div id="x">ezt fogom animálni</div>
+</body>
+<style>
+        #x {
+            display: inline-block;
+            background-color: rgb(104, 210, 139);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 1px 1 px 4px black;
+            font-size: 30px;
+            cursor: pointer;
+            transition: 1.5s;
+            position: fixed;
+            top: 50px;
+            left: 50px
+        }
+</style>
+<script>
+    el = document.getElementById("x")
+    setInterval(() => {
+        el.style.top = Math.random()*300+50
+        el.style.left = Math.random()*300+50
+        el.style.backgroundColor=`rgb(${
+            Math.random()*256
+        },${
+            Math.random()*256
+        },${
+            Math.random()*256
+        })`
+    }, 2000);
+</script>
